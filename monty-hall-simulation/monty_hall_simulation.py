@@ -1,5 +1,5 @@
 """
-This program simulates the Monte Hall Problem and outputs the probabilies
+This program simulates the Monty Hall Problem and outputs the probabilies
 of switching vs not switching the doors.
 
 Author: Sander Shi
@@ -11,7 +11,7 @@ import random
 
 class MonteHall(object):
     """
-    The Monte Hall class initializes a game by picking a winning door in
+    The Monty Hall class initializes a game by picking a winning door in
     a random manner.
     """
 
@@ -58,9 +58,9 @@ class MonteHall(object):
 
 def main():
     """
-    This function runs 10000 simulations on switching versus not switching.
+    This function runs 100000 simulations on switching versus not switching.
     """
-    iterations = 10000
+    iterations = 100000
     choices = [0, 1, 2]
     game = MonteHall()
 
@@ -74,6 +74,7 @@ def main():
             win_count += 1
     print("No switching:", win_count / iterations)
 
+    # Switch Doors
     win_count = 0
     for i in range(iterations):
         game.restart()
