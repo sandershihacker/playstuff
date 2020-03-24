@@ -1,6 +1,5 @@
 # Play Stuff
-This is a repository for fun playthings to write and script when 
-Nancy and I are bored.
+This is a repository for fun playthings to write and script when I am bored.
 
 ## Index
 | Plaything | Folder | Author | Date Created |
